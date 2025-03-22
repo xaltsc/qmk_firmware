@@ -1,0 +1,131 @@
+{
+    "aliases": {
+/*
+ * ┌──────┬──────┬──────┬──────┬──────┬──────┐  ┌──────┬──────┬──────┬──────┬──────┬──────┐
+ * │      │ 1    │ 2    │ 3    │ 4    │ 5    │  │ 6    │ 7    │ 8    │ 9    │ 0    │      │   Wo rkspace for num
+ * ├──────┼──────┼──────┼──────┼──────┼──────┤  ├──────┼──────┼──────┼──────┼──────┼──────┤
+ * │      │ QUIT │      │      │      │      │  │      │      │      │      │      │ CLSW │
+ * ├──────┼──────┼──────┼──────┼──────┼──────┤  ├──────┼──────┼──────┼──────┼──────┼──────┤
+ * │      │ TERM │      │ LNCH │ CPTR │ FULS │  │ DISL │ FOCL │ FOCD │ FOCU │ FOCR │ DISR │
+ * ├──────┼──────┼──────┼──────┼──────┼──────┤  ├──────┼──────┼──────┼──────┼──────┼──────┤
+ * │      │ RESZ │      │ CNTR │      │ DISP │  │      │ CONS │ INSZ │ DCSZ │ EXPL │      │
+ * └──────┴──────┴──────┴──────┴──────┴──────┘  └──────┴──────┴──────┴──────┴──────┴──────┘
+ */
+        "LGUI(EG_1)": {
+            "key": "WM_WS1",
+            "label": "Workspace 1",
+        }
+        "LGUI(EG_2)": {
+            "key": "WM_WS2",
+            "label": "Workspace 2",
+        }
+        "LGUI(EG_3)": {
+            "key": "WM_WS3",
+            "label": "Workspace 3",
+        }
+        "LGUI(EG_4)": {
+            "key": "WM_WS4",
+            "label": "Workspace 4",
+        }
+        "LGUI(EG_5)": {
+            "key": "WM_WS5",
+            "label": "Workspace 5",
+        }
+        "LGUI(EG_6)": {
+            "key": "WM_WS6",
+            "label": "Workspace 6",
+        }
+        "LGUI(EG_7)": {
+            "key": "WM_WS7",
+            "label": "Workspace 7",
+        }
+        "LGUI(EG_8)": {
+            "key": "WM_WS8",
+            "label": "Workspace 8",
+        }
+        "LGUI(EG_9)": {
+            "key": "WM_WS9",
+            "label": "Workspace 9",
+        }
+        "LGUI(EG_0)": {
+            "key": "WM_WS0",
+            "label": "Workspace 0",
+        }
+        "LGUI(EG_Q)": {
+            "key": "WM_QUIT",
+            "label": "Quit compositor",
+        }
+        "LGUI(KC_BSPC)": {
+            "key": "WM_CLSW",
+            "label": "Close window",
+        }
+        "LGUI(KC_ENT)": {
+            "key": "WM_TERM",
+            "label": "Launch terminal",
+        }
+        "LGUI(EG_E)": {
+            "key": "WM_LNCH",
+            "label": "Launcher",
+        }
+        "LGUI(EG_N)": {
+            "key": "WM_CPTR",
+            "label": "Capture",
+        }
+        "LGUI(EG_F)": {
+            "key": "WM_FULS",
+            "label": "Fullscreen/Set window properties",
+        }
+        "LGUI(EG_LBRC)": {
+            "key": "WM_DISL",
+            "label": "Left display"
+        }
+        "LGUI(EG_RBRC)": {
+            "key": "WM_DISR",
+            "label": "Left display"
+        }
+        "LGUI(KC_LEFT)": {
+            "key": "WM_FOCL",
+            "label": "Focus left",
+        }
+        "LGUI(KC_DOWN)": {
+            "key": "WM_FOCD",
+            "label": "Focus down",
+        }
+        "LGUI(KC_UP)": {
+            "key": "WM_FOCU",
+            "label": "Focus up",
+        }
+        "LGUI(KC_RGHT)": {
+            "key": "WM_FOCR",
+            "label": "Focus right",
+        }
+        "LGUI(EG_Z)": {
+            "key": "WM_RESZ",
+            "label": "Resize window",
+        }
+        "LGUI(EG_C)": {
+            "key": "WM_CNTR",
+            "label": "Center window",
+        }
+        "LGUI(EG_B)": {
+            "key": "WM_DISP",
+            "label": "Manage displays",
+        }
+        "LGUI(EG_PLUS)": {
+            "key": "WM_INSZ",
+            "label": "Increase window size",
+        }
+        "LGUI(EG_MINS)": {
+            "key": "WM_DCSZ",
+            "label": "Decrease window size",
+        }
+        "LGUI(EG_DOT)": {
+            "key": "WM_CONS",
+            "label": "Consume window",
+        }
+        "LGUI(EG_COMM)": {
+            "key": "WM_EXPL",
+            "label": "Expel window",
+        }
+    }
+}
