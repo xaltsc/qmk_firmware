@@ -28,7 +28,7 @@
 // clang-format off
 
 // Aliases
-#define EG_GRV  KC_GRV  // $
+#define EG_GRV  KC_GRV  // `
 #define EG_1    KC_1    // 1
 #define EG_2    KC_2    // 2
 #define EG_3    KC_3    // 3
@@ -95,31 +95,32 @@
 #define EG_DQUO S(EG_QUOT) // "
 #define EG_PIPE S(EG_BSLS) // |
 #define EG_RABK S(EG_LABK) // >
+#define EG_QUES S(EG_MINS) // ?
 #define EG_COLN S(EG_DOT)  // :
 #define EG_SCLN S(EG_COMM) // ;
 #define EG_NNBS S(KC_SPC)  // (narrow non-breaking space)
-#define EG_SUB_1 ALGR(EG_1)    // ₁
-#define EG_SUB_2 ALGR(EG_2)    // ₂
-#define EG_SUB_3 ALGR(EG_3)    // ₃
-#define EG_SUB_4 ALGR(EG_4)    // ₄
-#define EG_SUB_5 ALGR(EG_5)    // ₅
-#define EG_SUB_6 ALGR(EG_6)    // ₆
-#define EG_SUB_7 ALGR(EG_7)    // ₇
-#define EG_SUB_8 ALGR(EG_8)    // ₈
-#define EG_SUB_9 ALGR(EG_9)    // ₉
-#define EG_SUB_0 ALGR(EG_0)    // ₀
+#define EG_SUB1 ALGR(EG_1)    // ₁
+#define EG_SUB2 ALGR(EG_2)    // ₂
+#define EG_SUB3 ALGR(EG_3)    // ₃
+#define EG_SUB4 ALGR(EG_4)    // ₄
+#define EG_SUB5 ALGR(EG_5)    // ₅
+#define EG_SUB6 ALGR(EG_6)    // ₆
+#define EG_SUB7 ALGR(EG_7)    // ₇
+#define EG_SUB8 ALGR(EG_8)    // ₈
+#define EG_SUB9 ALGR(EG_9)    // ₉
+#define EG_SUB0 ALGR(EG_0)    // ₀
 #define EG_LPRN ALGR(EG_S)    // (
 #define EG_RPRN ALGR(EG_E)    // )
-#define EG_SUP_1 S(ALGR(EG_1))    // ¹
-#define EG_SUP_2 S(ALGR(EG_2))    // ²
-#define EG_SUP_3 S(ALGR(EG_3))    // ³
-#define EG_SUP_4 S(ALGR(EG_4))    // ⁴
-#define EG_SUP_5 S(ALGR(EG_5))    // ⁵
-#define EG_SUP_6 S(ALGR(EG_6))    // ⁶
-#define EG_SUP_7 S(ALGR(EG_7))    // ⁷
-#define EG_SUP_8 S(ALGR(EG_8))    // ⁸
-#define EG_SUP_9 S(ALGR(EG_9))    // ⁹
-#define EG_SUP_0 S(ALGR(EG_0))    // ⁰
+#define EG_SUP1 S(ALGR(EG_1))    // ¹
+#define EG_SUP2 S(ALGR(EG_2))    // ²
+#define EG_SUP3 S(ALGR(EG_3))    // ³
+#define EG_SUP4 S(ALGR(EG_4))    // ⁴
+#define EG_SUP5 S(ALGR(EG_5))    // ⁵
+#define EG_SUP6 S(ALGR(EG_6))    // ⁶
+#define EG_SUP7 S(ALGR(EG_7))    // ⁷
+#define EG_SUP8 S(ALGR(EG_8))    // ⁸
+#define EG_SUP9 S(ALGR(EG_9))    // ⁹
+#define EG_SUP0 S(ALGR(EG_0))    // ⁰
 #define EG_DCIR S(ALGR(EG_Q))    // ^ (dead)
 #define EG_LEQL S(ALGR(EG_C))    // ≤
 #define EG_GEQL S(ALGR(EG_O))    // ≥

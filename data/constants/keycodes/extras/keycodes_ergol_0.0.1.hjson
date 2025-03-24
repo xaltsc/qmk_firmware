@@ -15,7 +15,7 @@
  */
         "KC_GRV": {
             "key": "EG_GRV",
-            "label": "$",
+            "label": "`",
         }
         "KC_1": {
             "key": "EG_1",
@@ -294,6 +294,10 @@
             "key": "EG_RABK",
             "label": ">",
         }
+        "S(EG_MINS)": {
+            "key": "EG_QUES",
+            "label": "?",
+        }
         "S(EG_DOT)": {
             "key": "EG_COLN",
             "label": ":",
@@ -304,7 +308,7 @@
         }
         "S(KC_SPC)": {
             "key": "EG_NNBS",
-            "label": "(narrow non-breaking space)"
+            "label": "(narrow non-breaking space)",
         }
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -320,43 +324,43 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
         "ALGR(EG_1)": {
-            "key": "EG_SUB_1",
+            "key": "EG_SUB1",
             "label":  "₁",
         }
         "ALGR(EG_2)": {
-            "key": "EG_SUB_2",
+            "key": "EG_SUB2",
             "label":  "₂",
         }
         "ALGR(EG_3)": {
-            "key": "EG_SUB_3",
+            "key": "EG_SUB3",
             "label":  "₃",
         }
         "ALGR(EG_4)": {
-            "key": "EG_SUB_4",
+            "key": "EG_SUB4",
             "label":  "₄",
         }
         "ALGR(EG_5)": {
-            "key": "EG_SUB_5",
+            "key": "EG_SUB5",
             "label":  "₅",
         }
         "ALGR(EG_6)": {
-            "key": "EG_SUB_6",
+            "key": "EG_SUB6",
             "label":  "₆",
         }
         "ALGR(EG_7)": {
-            "key": "EG_SUB_7",
+            "key": "EG_SUB7",
             "label":  "₇",
         }
         "ALGR(EG_8)": {
-            "key": "EG_SUB_8",
+            "key": "EG_SUB8",
             "label":  "₈",
         }
         "ALGR(EG_9)": {
-            "key": "EG_SUB_9",
+            "key": "EG_SUB9",
             "label":  "₉",
         }
         "ALGR(EG_0)": {
-            "key": "EG_SUB_0",
+            "key": "EG_SUB0",
             "label":  "₀",
         }
         "ALGR(EG_S)": {
@@ -369,7 +373,7 @@
         }
 /* Shift+AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
- * │   │ ¹ │ ² │ ³ │ ³ │ ⁴ │ ⁵ │ ⁶ │ ⁷ │ ⁸ │ ⁹ │ ⁰ │   │       │
+ * │   │ ¹ │ ² │ ³ │ ⁴ │ ⁵ │ ⁶ │ ⁷ │ ⁸ │ ⁹ │ ⁰ │   │   │       │
  * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤
  * │     │ ^ │ ≤ │ ≥ │ ¤ │ ‰ │ ° │   │ × │ ´ │ ` │   │   │     │
  * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┐    │
@@ -381,44 +385,44 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
         "S(ALGR(EG_1))": {
-            "key": "EG_SUP_1",
-            "label":  "¹",
+            "key": "EG_SUP1",
+            "label": "¹",
         }
         "S(ALGR(EG_2))": {
-            "key": "EG_SUP_2",
-            "label":  "²",
+            "key": "EG_SUP2",
+            "label": "²",
         }
         "S(ALGR(EG_3))": {
-            "key": "EG_SUP_3",
-            "label":  "³",
+            "key": "EG_SUP3",
+            "label": "³",
         }
         "S(ALGR(EG_4))": {
-            "key": "EG_SUP_4",
-            "label":  "⁴",
+            "key": "EG_SUP4",
+            "label": "⁴",
         }
         "S(ALGR(EG_5))": {
-            "key": "EG_SUP_5",
-            "label":  "⁵",
+            "key": "EG_SUP5",
+            "label": "⁵",
         }
         "S(ALGR(EG_6))": {
-            "key": "EG_SUP_6",
-            "label":  "⁶",
+            "key": "EG_SUP6",
+            "label": "⁶",
         }
         "S(ALGR(EG_7))": {
-            "key": "EG_SUP_7",
-            "label":  "⁷",
+            "key": "EG_SUP7",
+            "label": "⁷",
         }
         "S(ALGR(EG_8))": {
-            "key": "EG_SUP_8",
-            "label":  "⁸",
+            "key": "EG_SUP8",
+            "label": "⁸",
         }
         "S(ALGR(EG_9))": {
-            "key": "EG_SUP_9",
-            "label":  "⁹",
+            "key": "EG_SUP9",
+            "label": "⁹",
         }
         "S(ALGR(EG_0))": {
-            "key": "EG_SUP_0",
-            "label":  "⁰",
+            "key": "EG_SUP0",
+            "label": "⁰",
         }
         "S(ALGR(EG_Q))": {
             "key": "EG_DCIR",
